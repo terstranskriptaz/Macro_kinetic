@@ -1,0 +1,28 @@
+MODEL SIMULATION:Modeling of the pyruvate production with Escherichia coli
+in a fed-batch bioreactor
+
+https://www.scielo.br/pdf/bjce/v35n2/1678-4383-bjce-35-02-0441.pdf
+
+In batch and fed-batch processes, the rate of overproduction of heterogeneous proteins by
+mammalian cells is limited by the decline in cell viability, by the depletion of required
+metabolites and substrates or by the accumulation of metabolic products and inhibitors.
+Differential equations have been the classic way of modeling cell culture of therapeutic
+protein products within continuously stirred bioreactors. Product titer, cell densities and
+viability and the concentration of major metabolites including glucose, lactate, glutamine and
+ammonia can be easily predicted
+The Monod-Kinetics mechanistic mathematical model for describing growth and metabolism in experiments
+performed using the batch operation mode will be done using the 6 ODEs, 2 algebraic equations and parameters in the above
+linked article.
+
+Task 1: A GUI was created for user input. It was then assigned a class object for attribute references and
+" if __name__ == '__main__' " used to import it to the main.py file so as to assign the user input to our
+start variables.
+
+Task 2: A function for the Monod-Kinetics model was then written and the graph comparisons between:
+a) living and deadcell density against time
+b) Glucose and Lactate conc. against time
+c) Glutamine and Ammonia conc. against time
+
+were plotted.
+
+"""
